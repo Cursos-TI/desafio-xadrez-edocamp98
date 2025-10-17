@@ -24,7 +24,6 @@
         }
     
     }
-
     //Movimento da Rainha
     void queenmove(){
         printf("A rainha se moverá 8 casas para esquerda: \n");
@@ -64,16 +63,15 @@ int main() {
     case 1:
         bishopmove();
         break;
-
     case 2:
         towermove();
         break;
-
-   case 3:
+    case 3:
         queenmove();
         break;
-   case 4:
+    case 4:
         horsemove();
+        break;
         
         
     default:
